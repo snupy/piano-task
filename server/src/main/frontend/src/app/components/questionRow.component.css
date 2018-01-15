@@ -1,0 +1,10 @@
+:host{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.title, .creator, .creation-date, .open{
+  width: 25%;
+  border: 1px solid;
+}

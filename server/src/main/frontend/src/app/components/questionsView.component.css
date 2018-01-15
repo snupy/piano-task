@@ -1,0 +1,9 @@
+.page-control{
+  display: flex;
+  flex-direction: row;
+}
+.page-control-next, .page-control-prev{
+  padding: 5px;
+  cursor: pointer;
+  color: blue;
+}

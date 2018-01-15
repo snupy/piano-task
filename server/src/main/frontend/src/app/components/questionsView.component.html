@@ -1,0 +1,8 @@
+<input type="text" [ngModel]="search" (ngModelChange)="searchChange($event)"/>
+<ng-container *ngIf="page">
+  <questions-list [questions]="page.content"></questions-list>
+  <div class="page-control">
+    <div *ngIf="!page.first" (click)="previousPage()" class="page-control-prev">Previous</div>
+    <div *ngIf="!page.last" (click)="nextPage()"  class="page-control-next">Next</div>
+  </div>
+</ng-container>
