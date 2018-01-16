@@ -1,7 +1,7 @@
 # piano-task
 ## How to build it?
 ``` bash
-mvn package
+mvn package -PskipTests
 ```
 
 ## How to run it?
