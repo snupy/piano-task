@@ -25,7 +25,7 @@ public class Application {
     public class Config {
         @Bean
         public HttpComponentsClientHttpRequestFactory httpRequestFactory() {
-            System.out.print("MALIK2000-test-11");
+            System.out.print("MALIK2000-test-12");
             return new HttpComponentsClientHttpRequestFactory(HttpClientBuilder.create().build());
         }
 
