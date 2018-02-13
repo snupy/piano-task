@@ -25,7 +25,7 @@ public class Application {
     public class Config {
         @Bean
         public HttpComponentsClientHttpRequestFactory httpRequestFactory() {
-            System.out.print("TEST-02-02");
+            System.out.print("TEST-02-03");
             return new HttpComponentsClientHttpRequestFactory(HttpClientBuilder.create().build());
         }
 
