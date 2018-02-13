@@ -25,7 +25,7 @@ public class Application {
     public class Config {
         @Bean
         public HttpComponentsClientHttpRequestFactory httpRequestFactory() {
-            System.out.print("SSS-100500-TE");
+            System.out.print("TEST-02");
             return new HttpComponentsClientHttpRequestFactory(HttpClientBuilder.create().build());
         }
 
